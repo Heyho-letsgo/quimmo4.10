@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nom:</strong>
+  <%= @acquereur.nom %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @acquereur.user %>
+</p>
+
+<p>
+  <strong>Agence:</strong>
+  <%= @acquereur.agence %>
+</p>
+
+<p>
+  <strong>Sous groupe:</strong>
+  <%= @acquereur.sous_groupe %>
+</p>
+
+<p>
+  <strong>Principal groupe:</strong>
+  <%= @acquereur.principal_groupe %>
+</p>
+
+<%= link_to 'Edit', edit_acquereur_path(@acquereur) %> |
+<%= link_to 'Back', acquereurs_path %>
